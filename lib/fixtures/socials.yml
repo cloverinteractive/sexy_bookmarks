@@ -1,0 +1,246 @@
+scriptstyle:
+  url: 'http://scriptandstyle.com/submit?url=PERMALINK&amp;title=TITLE'
+  message: 'Submit this to Script &amp; Style'
+blinklist:
+  url: 'http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;Url=PERMALINK&amp;Title=TITLE'
+  message: 'Share this on Blinklist'
+delicious:
+  url: 'http://delicious.com/post?url=PERMALINK&amp;title=TITLE'
+  message: 'Share this on del.icio.us'
+digg:
+  url: 'http://digg.com/submit?phase=2&amp;url=PERMALINK&amp;title=TITLE'
+  message: 'Digg this!'
+diigo:
+  url: 'http://www.diigo.com/post?url=PERMALINK&amp;title=TITLE&amp;desc=SEXY_TEASER'
+  message: 'Post this on Diigo'
+reddit:
+  url: 'http://reddit.com/submit?url=PERMALINK&amp;title=TITLE'
+  message: 'Share this on Reddit'
+yahoobuzz:
+  url: 'http://buzz.yahoo.com/submit/?submitUrl=PERMALINK&amp;submitHeadline=TITLE&amp;submitSummary=YAHOOTEASER&amp;submitCategory=YAHOOCATEGORY&amp;submitAssetType=YAHOOMEDIATYPE'
+  message: 'Buzz up!'
+stumbleupon:
+  url: 'http://www.stumbleupon.com/submit?url=PERMALINK&amp;title=TITLE'
+  message: 'Stumble upon something good? Share it on StumbleUpon'
+technorati:
+  url: 'http://www.stumbleupon.com/submit?url=PERMALINK&amp;title=TITLE'
+  message: 'Stumble upon something good? Share it on StumbleUpon'
+mixx:
+  url: 'http://www.mixx.com/submit?page_url=PERMALINK&amp;title=TITLE'
+  message: 'Share this on Mixx'
+myspace: 
+  url: 'http://www.myspace.com/Modules/PostTo/Pages/?u=PERMALINK&amp;t=TITLE'
+  message: 'Post this to MySpace'
+designfloat:
+  url: 'http://www.designfloat.com/submit.php?url=PERMALINK&amp;title=TITLE'
+  message: 'Submit this to DesignFloat'
+facebook:
+  url: 'http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=PERMALINK&amp;t=TITLE'
+  message: 'Share this on Facebook'
+twitter:
+  url:  'http://twitter.com/home?status='
+  message: 'Tweet This!'
+linkedin:
+  url: 'http://www.linkedin.com/shareArticle?mini=true&amp;url=PERMALINK&amp;title=TITLE&amp;summary=POST_SUMMARY&amp;source=SITE_NAME'
+  message: 'Share this on LinkedIn'
+newsvine:
+  url: 'http://www.newsvine.com/_tools/seed&amp;save?u=PERMALINK&amp;h=TITLE'
+  message: 'Seed this on Newsvine'
+googlebookmarks:
+  url: 'http://www.google.com/bookmarks/mark?op=add&amp;bkmk=PERMALINK&amp;title=TITLE'
+  message: 'Add this to Google Bookmarks'
+googlereader:
+  url: 'http://www.google.com/reader/link?url=PERMALINK&amp;title=TITLE&amp;srcUrl=PERMALINK&amp;srcTitle=TITLE&amp;snippet=POST_SUMMARY'
+  message: 'Add this to Google Reader'
+googlebuzz:
+  url: 'http://www.google.com/buzz/post?url=PERMALINK&amp;imageurl='
+  message: 'Post on Google Buzz'
+izeby:
+  url: 'http://izeby.com/submit.php?url=PERMALINK'
+  message: 'Add this to Izeby'
+tipd:
+  url: 'http://tipd.com/submit.php?url=PERMALINK'
+  message: 'Share this on Tipd'
+pfbuzz:
+  url: 'http://pfbuzz.com/submit?url=PERMALINK&amp;title=TITLE'
+  message: 'Share this on PFBuzz'
+friendfeed:
+  url: 'http://www.friendfeed.com/share?title=TITLE&amp;link=PERMALINK'
+  message: 'Share this on FriendFeed'
+blogmarks:
+  url: 'http://blogmarks.net/my/new.php?mini=1&amp;simple=1&amp;url=PERMALINK&amp;title=TITLE'
+  message: 'Mark this on BlogMarks'
+twittley:
+  url: 'http://twittley.com/submit/?title=TITLE&amp;url=PERMALINK&amp;desc=POST_SUMMARY&amp;pcat=TWITT_CAT&amp;tags=DEFAULT_TAGS'
+  message: 'Submit this to Twittley'
+fwisp:
+  url: 'http://fwisp.com/submit?url=PERMALINK'
+  message: 'Share this on Fwisp'
+bobrdobr:
+  url: 'http://bobrdobr.ru/addext.html?url=PERMALINK&amp;title=TITLE'
+  message: 'Share this on BobrDobr'
+yandex:
+  url: 'http://zakladki.yandex.ru/userarea/links/addfromfav.asp?bAddLink_x=1&amp;lurl=PERMALINK&amp;lname=TITLE'
+  message: 'Yandex.Bookmarks'
+memoryru:
+  url: 'http://memori.ru/link/?sm=1&amp;u_data[url]=PERMALINK&amp;u_data[name]=TITLE'
+  message: 'Add this to Memory.ru'
+100zakladok:
+  url: 'http://www.100zakladok.ru/save/?bmurl=PERMALINK&amp;bmtitle=TITLE'
+  message: 'Add this to 100 bookmarks'
+moemesto:
+  url: 'http://moemesto.ru/post.php?url=PERMALINK&amp;title=TITLE'
+  message: 'Add this to MyPlace'
+hackernews:
+  url: 'http://news.ycombinator.com/submitlink?u=PERMALINK&amp;t=TITLE'
+  message: 'Submit this to Hacker News'
+printfriendly:
+  url: 'http://www.printfriendly.com/print?url=PERMALINK'
+  message: 'Send this page to Print Friendly'
+designbump:
+  url: 'http://designbump.com/submit?url=PERMALINK&amp;title=TITLE&amp;body=POST_SUMMARY'
+  message: 'Bump this on DesignBump'
+ning:
+  url: 'http://bookmarks.ning.com/addItem.php?url=PERMALINK&amp;T=TITLE'
+  message: 'Add this to Ning'
+identica:
+  url: 'http://identi.ca//index.php?action=newnotice&amp;status_textarea=Reading:+&quot;SHORT_TITLE&quot;+-+from+FETCH_URL'
+  message: 'Save this to Xerpi'
+xerpi:
+  url: 'http://www.xerpi.com/block/add_link_from_extension?url=PERMALINK&amp;title=TITLE'
+  message: 'Save this to Xerpi'
+wikio:
+  url: 'http://www.wikio.com/sharethis?url=PERMALINK&amp;title=TITLE'
+  message: 'Share this on Wikio'
+techmeme:
+  url: 'http://twitter.com/home/?status=Tip+@Techmeme+PERMALINK+&quot;TITLE&quot;&amp;source=shareaholic'
+  message: 'Tip this to TechMeme'
+sphinn:
+  url: 'http://sphinn.com/index.php?c=post&amp;m=submit&amp;link=PERMALINK'
+  message: 'Sphinn this on Sphinn'
+posterous:
+  url: 'http://posterous.com/share?linkto=PERMALINK&amp;title=TITLE&amp;selection=POST_SUMMARY'
+  message: 'Post this to Posterous'
+globalgrind:
+  url: 'http://globalgrind.com/submission/submit.aspx?url=PERMALINK&amp;type=Article&amp;title=TITLE'
+  message: 'Grind this! on Global Grind'
+pingfm:
+  url: 'http://ping.fm/ref/?link=PERMALINK&amp;title=TITLE&amp;body=POST_SUMMARY'
+  message: 'Ping this on Ping.fm'
+nujij:
+  url: 'http://nujij.nl/jij.lynkx?t=TITLE&amp;u=PERMALINK&amp;b=POST_SUMMARY'
+  message: 'Submit this to NUjij'
+ekudos:
+  url: 'http://www.ekudos.nl/artikel/nieuw?url=PERMALINK&amp;title=TITLE&amp;desc=POST_SUMMARY'
+  message: 'Submit this to eKudos'
+netvouz:
+  url: 'http://www.netvouz.com/action/submitBookmark?url=PERMALINK&amp;title=TITLE&amp;popup=no'
+  message: 'Submit this to Netvouz'
+netvibes:
+  url: 'http://www.netvibes.com/share?title=TITLE&amp;url=PERMALINK'
+  message: 'Submit this to Netvibes'
+webblend:
+  url: 'http://thewebblend.com/submit?url=PERMALINK&amp;title=TITLE&amp;body=POST_SUMMARY'
+  message: 'Blend this!'
+wykop:
+  url: 'http://www.wykop.pl/dodaj?url=PERMALINK&amp;title=TITLE'
+  message: 'Add this to Wykop!'
+blogengage:
+  url: 'http://www.blogengage.com/submit.php?url=PERMALINK'
+  message: 'Engage this article!'
+hyves:
+  url:'http://www.hyves.nl/profilemanage/add/tips/?name=TITLE&amp;text=POST_SUMMARY+-+PERMALINK&amp;rating=5'
+  message: 'Share this on Hyves'
+pusha:
+  url: 'http://www.pusha.se/posta?url=PERMALINK&amp;title=TITLE'
+  message: 'Push this on Pusha'
+hatena:
+  url: 'http://b.hatena.ne.jp/add?mode=confirm&amp;url=PERMALINK&amp;title=TITLE'
+  message: 'Bookmark this on Hatena Bookmarks'
+mylinkvault:
+  url: 'http://www.mylinkvault.com/link-page.php?u=PERMALINK&amp;n=TITLE'
+  message: 'Store this link on MyLinkVault'
+slashdot:
+  url: 'http://slashdot.org/bookmark.pl?url=PERMALINK&amp;title=TITLE'
+  message: 'Submit this to SlashDot'
+squidoo:
+  url: 'http://www.squidoo.com/lensmaster/bookmark?PERMALINK'
+  message: 'Add this to a lense on Squidoo'
+propeller:
+  url: 'http://www.propeller.com/submit/?url=PERMALINK'
+  message: 'Submit this story to Propeller'
+faqpal:
+  url: 'http://www.faqpal.com/submit?url=PERMALINK'
+  message: 'Submit this to FAQpal'
+evernote:
+  url: 'http://www.evernote.com/clip.action?url=PERMALINK&amp;title=TITLE'
+  message: 'Clip this to Evernote'
+meneame:
+  url: 'http://meneame.net/submit.php?url=PERMALINK'
+  message: 'Submit this to Meneame'
+bitacoras:
+  url: 'http://bitacoras.com/anotaciones/PERMALINK'
+  message: 'Submit this to bitacoras'
+jumptags:
+  url: 'http://www.jumptags.com/add/?url=PERMALINK&amp;title=TITLE'
+  message: 'Submit this link to JumpTags'
+bebo:
+  url: 'http://www.bebo.com/c/share?Url=PERMALINK&amp;Title=TITLE'
+  message: 'Share this on Bebo'
+n4g:
+  url: 'http://www.n4g.com/tips.aspx?url=PERMALINK&amp;title=TITLE'
+  message: 'Submit tip to N4G'
+strands:
+  url: 'http://www.strands.com/tools/share/webpage?title=TITLE&amp;url=PERMALINK'
+  message: 'Submit this to Strands'
+orkut:
+  url: 'http://promote.orkut.com/preview?nt=orkut.com&amp;tt=TITLE&amp;du=PERMALINK&amp;cn=POST_SUMMARY'
+  message: 'Promote this on Orkut'
+tumblr:
+  url: 'http://www.tumblr.com/share?v=3&amp;u=PERMALINK&amp;t=TITLE'
+  message: 'Share this on Tumblr'
+stumpedia:
+  url: 'http://www.stumpedia.com/submit?url=PERMALINK&amp;title=TITLE'
+  message: 'Add this to Stumpedia'
+current:
+  url: 'http://current.com/clipper.htm?url=PERMALINK&amp;title=TITLE'
+  message: 'Post this on Current'
+blogger:
+  url: 'http://www.blogger.com/blog_this.pyra?t&amp;u=PERMALINK&amp;n=TITLE&amp;pli=1'
+  message: 'Blog this on Blogger'
+plurk:
+  url: 'http://www.plurk.com/m?content=TITLE+-+PERMALINK&amp;qualifier=shares'
+  message: 'Share this on Plurk'
+dzone:
+  url: 'http://www.dzone.com/links/add.html?url=PERMALINK&amp;title=TITLE&amp;description=POST_SUMMARY'
+  message: 'Add this to DZone'
+kaevur:
+  url: 'http://kaevur.com/submit.php?url=PERMALINK'
+  message: 'Share this on Kaevur'
+virb:
+  url: 'http://virb.com/share?external&amp;v=2&amp;url=PERMALINK&amp;title=TITLE'
+  message: 'Share this on Virb'
+boxnet:
+  url: 'https://www.box.net/api/1.0/import?url=PERMALINK&amp;name=TITLE&amp;description=POST_SUMMARY&amp;import_as=link'
+  message: 'Add this link to Box.net'
+oknotizie:
+  url: 'http://oknotizie.virgilio.it/post?url=PERMALINK&amp;title=TITLE'
+  message: 'Share this on OkNotizie'
+bonzobox:
+  url: 'http://bonzobox.com/toolbar/add?pop=1&amp;u=PERMALINK&amp;t=TITLE&amp;d=POST_SUMMARY'
+  message: 'Add this to BonzoBox'
+plaxo:
+  url: 'http://www.plaxo.com/?share_link=PERMALINK'
+  message: 'Share this on Plaxo'
+springpad:
+  url: 'http://springpadit.com/clip.action?body=POST_SUMMARY&amp;url=PERMALINK&amp;format=microclip&amp;title=TITLE&amp;isSelected=true'
+  message: 'Spring this on SpringPad'
+zabox:
+  url: 'http://www.zabox.net/submit.php?url=PERMALINK'
+  message: 'Box this on Zabox'
+viadeo:
+  url: 'http://www.viadeo.com/shareit/share/?url=PERMALINK&amp;title=TITLE&amp;urlaffiliate=31138'
+  message: 'Share this on Viadeo'
+buzzster:
+  url: "javascript:var%20s=document.createElement('script');s.src='http://www.buzzster.com/javascripts/bzz_adv.js';s.type='text/javascript';void(document.getElementsByTagName('head')[0].appendChild(s));"
+  message: 'Buzzter!'
