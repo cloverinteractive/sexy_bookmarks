@@ -29,7 +29,7 @@ module SexyBookmarksMacrosHelper
     content_tag( 'div', unordered_list, { :class => 'shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-shr', :id => 'sexybookmarks' } ) + reveal_social_list(socials.count, per_row)
   end
   
-  def add_sexy_bookmarks_if_needed
+  def include_sexy_bookmarks_if_needed
     stylesheet_link_tag "sexybookmarks/style.css" if @uses_sexy_bookmarks
   end
   
