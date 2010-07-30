@@ -6,10 +6,6 @@ module SexyBookmarks
   def self.initialize
     return if @intialized
     
-    raise "ActionController is not available yet." unless defined?(ActionController)
-    ActionController::Base.send(:include, SexyBookmarks)
-    ActionController::Base.helper SexyBookmarksMacrosHelper
-    
     SexyBookmarks.install
     @intialized = true
   end
@@ -67,4 +63,12 @@ module SexyBookmarks
       before_filter(proc, options)
     end
   end
+  
+  self.initialize
+  
+end
+
+class ActionController::Base
+  include SexyBookmarks
+  self.helper SexyBookmarksMacrosHelper
 end

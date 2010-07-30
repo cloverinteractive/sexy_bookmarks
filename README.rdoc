@@ -5,6 +5,24 @@ SexyBookmarks is a cool plugin for wordpress that includes list of social networ
 == Installation
 Installing SexyBookmarks is pretty simple and straight forward
 
+== Installing as ruby gem
+
+=== Step 1
+To install SexyBookmarks from rubygems jus do the following:
+
+  gem install sexy_bookmarks
+  
+=== Step 2
+Add the gem to your rails app like follows:
+
+  # without bundler add this to environment.rb
+  config.gem 'sexy_bookmarks'
+  
+  # in bundler do it like this:
+  gem 'sexy_bookmarks'
+
+== Installing as plugin
+
 === Step 1
 To install SexyBookmarks just do the following:
 

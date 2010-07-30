@@ -2,7 +2,7 @@ module SexyBookmarksMacrosHelper
   
   def available_social_networks
     if @available_socials.nil?
-      socials             = File.new( RAILS_ROOT + '/vendor/plugins/sexy_bookmarks/lib/fixtures/socials.yml' )
+      socials             = File.new( File.join(File.dirname(__FILE__), 'fixtures', 'socials.yml') )
       @available_socials  = YAML::load socials
       socials.close
     end

@@ -1,1 +1,2 @@
+require 'sexy_bookmarks'
 SexyBookmarks.initialize
