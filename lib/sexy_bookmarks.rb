@@ -1,3 +1,5 @@
+require 'sexy_bookmarks_macros_helper'
+
 module SexyBookmarks
   def self.included(base)
     base.extend(ClassMethods)
