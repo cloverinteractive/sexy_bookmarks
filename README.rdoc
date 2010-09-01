@@ -74,3 +74,91 @@ The uses_sexy_bookmarks method on your controller set an instance variable to tr
   uses_sexy_bookmarks :only => [ :show ]
   
 This will ensure that the SexyBookmark CSS is only loaded when you visit the actions in the method's parameter.
+
+==== All supported Social Network options
+
+This is the list of all the suported social networks, thanks asn for the observation:
+
+* scriptstyle
+* blinklist
+* delicious
+* digg
+* diigo
+* reddit
+* yahoobuzz
+* stumbleupon
+* technorati
+* mixx
+* myspace
+* designfloat
+* facebook
+* twitter
+* linkedin
+* newsvine
+* googlebookmarks
+* googlereader
+* googlebuzz
+* izeby
+* tipd
+* pfbuzz
+* friendfeed
+* blogmarks
+* twittley
+* fwisp
+* bobrdobr
+* yandex
+* memoryru
+* 100zakladok
+* moemesto
+* hackernews
+* printfriendly
+* designbump
+* ning
+* identica
+* xerpi
+* wikio
+* techmeme
+* sphinn
+* posterous
+* globalgrind
+* pingfm
+* nujij
+* ekudos
+* netvouz
+* netvibes
+* webblend
+* wykop
+* blogengage
+* hyves
+* pusha
+* hatena
+* mylinkvault
+* slashdot
+* squidoo
+* propeller
+* faqpal
+* evernote
+* meneame
+* bitacoras
+* jumptags
+* bebo
+* n4g
+* strands
+* orkut
+* tumblr
+* stumpedia
+* current
+* blogger
+* plurk
+* dzone
+* kaevur
+* virb
+* boxnet
+* oknotizie
+* bonzobox
+* plaxo
+* springpad
+* zabox
+* viadeo
+* buzzster
+
