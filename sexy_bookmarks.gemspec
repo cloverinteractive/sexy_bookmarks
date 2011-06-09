@@ -1,10 +1,10 @@
 Gem::Specification.new do |gem|
 	gem.name 	            = "sexy_bookmarks"
-	gem.version           = "0.1.1"
-	gem.authors           = [ "Enrique Vidal"]
+	gem.version           = "0.2.0"
+	gem.authors           = [ "Enrique Vidal", "Michael Baldry"]
 	gem.email	            = "enrique@cloverinteractive.com"
-	gem.homepage          = "http://github.com/EnriqueVidal/sexy_bookmarks"
-	gem.summary           = "An easy to use rails port of sexybookmarks"
+	gem.homepage          = "http://github.com/michaelbaldry/sexy_bookmarks"
+	gem.summary           = "An easy to use rails port of sexybookmarks, upgraded to work with rails 3"
 	
 	gem.description       = "SexyBookmarks is only a rails port of wordpress popular plugin sexy bookmarks."
 	
