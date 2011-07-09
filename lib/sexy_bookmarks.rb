@@ -16,12 +16,13 @@ module SexyBookmarks
     require 'fileutils'
     original_stylesheets  = File.join(File.dirname(__FILE__), 'sexybookmarks', 'assets', 'stylesheets', 'sexybookmarks' )
     original_images       = File.join(File.dirname(__FILE__), 'sexybookmarks', 'assets', 'images', 'sexybookmarks' )
-    destination           = File.join(Rails.root.to_s, 'app', 'assets')
+    root = FileUtils.pwd # Using this as a substitute for Rails.root since that's not available, apparently
+    destination           = File.join(root, 'app', 'assets')
 
     stylesheet_dest       = File.join(destination, 'stylesheets', 'sexybookmarks')
     stylesheet            = File.join(stylesheet_dest, 'style.css')
 
-    images_dest           = File.join(Rails.root.to_s, 'public', 'images', 'sexybookmarks')
+    images_dest           = File.join(root, 'public', 'images', 'sexybookmarks')
 
     unless File.exists?( stylesheet ) && FileUtils.identical?( File.join( original_stylesheets, 'style.css' ), stylesheet )
       if !File.exists?( stylesheet )
