@@ -4,25 +4,25 @@ module SexyBookmarks
   def self.included(base)
     base.extend(ClassMethods)
   end
-  
+
   def self.initialize
     return if @intialized
-    
+
     SexyBookmarks.install
     @intialized = true
   end
-  
+
   def self.install
     require 'fileutils'
     original_stylesheets  = File.join(File.dirname(__FILE__), 'sexybookmarks', 'assets', 'stylesheets', 'sexybookmarks' )
     original_images       = File.join(File.dirname(__FILE__), 'sexybookmarks', 'assets', 'images', 'sexybookmarks' )
-    destination           = File.join(Rails.root.to_s, 'public')
-    
+    destination           = File.join(Rails.root.to_s, 'app', 'assets')
+
     stylesheet_dest       = File.join(destination, 'stylesheets', 'sexybookmarks')
     stylesheet            = File.join(stylesheet_dest, 'style.css')
-    
-    images_dest           = File.join(destination, 'images', 'sexybookmarks')
-    
+
+    images_dest           = File.join(Rails.root.to_s, 'public', 'images', 'sexybookmarks')
+
     unless File.exists?( stylesheet ) && FileUtils.identical?( File.join( original_stylesheets, 'style.css' ), stylesheet )
       if !File.exists?( stylesheet )
         begin
@@ -51,23 +51,23 @@ module SexyBookmarks
         puts "ERROR: Problem installing SexyBookmarks. Please manually copy the images in"
         puts original_images
         puts "to"
-        puts images_dest 
+        puts images_dest
       end
     end
   end
-  
+
   module ClassMethods
     def uses_sexy_bookmarks(options = {})
       proc = Proc.new do |current_class|
         current_class.instance_variable_set(:@uses_sexy_bookmarks, true)
       end
-      
+
       before_filter(proc, options)
     end
   end
-  
+
   self.initialize
-  
+
 end
 
 class ActionController::Base

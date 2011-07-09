@@ -28,17 +28,17 @@ technorati:
 mixx:
   url: 'http://www.mixx.com/submit?page_url=PERMALINK&amp;title=TITLE'
   message: 'Share this on Mixx'
-myspace: 
+myspace:
   url: 'http://www.myspace.com/Modules/PostTo/Pages/?u=PERMALINK&amp;t=TITLE'
   message: 'Post this to MySpace'
 designfloat:
   url: 'http://www.designfloat.com/submit.php?url=PERMALINK&amp;title=TITLE'
   message: 'Submit this to DesignFloat'
 facebook:
-  url: 'http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=PERMALINK&amp;t=TITLE'
+  url: 'http://www.facebook.com/share.php?v=4&src=bm&u=PERMALINK&t=TITLE'
   message: 'Share this on Facebook'
 twitter:
-  url:  'http://twitter.com/home?status='
+  url:  'http://twitter.com/share?url=PERMALINK&text=POST_SUMMARY'
   message: 'Tweet This!'
 linkedin:
   url: 'http://www.linkedin.com/shareArticle?mini=true&amp;url=PERMALINK&amp;title=TITLE&amp;summary=POST_SUMMARY&amp;source=SITE_NAME'
@@ -149,7 +149,7 @@ blogengage:
   url: 'http://www.blogengage.com/submit.php?url=PERMALINK'
   message: 'Engage this article!'
 hyves:
-  url:'http://www.hyves.nl/profilemanage/add/tips/?name=TITLE&amp;text=POST_SUMMARY+-+PERMALINK&amp;rating=5'
+  url: 'http://www.hyves.nl/profilemanage/add/tips/?name=TITLE&amp;text=POST_SUMMARY+-+PERMALINK&amp;rating=5'
   message: 'Share this on Hyves'
 pusha:
   url: 'http://www.pusha.se/posta?url=PERMALINK&amp;title=TITLE'
