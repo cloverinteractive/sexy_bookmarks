@@ -20,7 +20,6 @@ module SexyBookmarksMacrosHelper
       link_url = link_url.gsub( /TWITT_CAT/, content[:twitt_cat].to_s ).gsub( /DEFAULT_TAGS/, content[:default_tags].to_s )
       link_url = link_url.gsub( /YAHOOTEASER/, content[:yahooteaser].to_s ).gsub( /YAHOOCATEGORY/, content[:yahoocategory].to_s )
       link_url = link_url.gsub( /YAHOOMEDIATYPE/, content[:yahoomediatype].to_s )
-      debugger if social == :twitter
       link_options  = {
         :href   => link_url,
         :rel    => :nofollow,
