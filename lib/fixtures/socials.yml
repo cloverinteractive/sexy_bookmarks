@@ -38,7 +38,7 @@ facebook:
   url: 'http://www.facebook.com/share.php?v=4&src=bm&u=PERMALINK&t=TITLE'
   message: 'Share this on Facebook'
 twitter:
-  url:  'http://twitter.com/share?url=PERMALINK&text=POST_SUMMARY'
+  url:  'https://twitter.com/share?url=PERMALINK&text=POST_SUMMARY'
   message: 'Tweet This!'
 linkedin:
   url: 'http://www.linkedin.com/shareArticle?mini=true&amp;url=PERMALINK&amp;title=TITLE&amp;summary=POST_SUMMARY&amp;source=SITE_NAME'
