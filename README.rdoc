@@ -1,34 +1,13 @@
 = SexyBookmarks
-This plugin provides the installation and utilization of SexyBookmarks in Ruby on Rails applications of versions 2.3.5 - 2.3.8.
+This plugin provides the installation and utilization of SexyBookmarks in Ruby on Rails 3.1 - It's still in progress but should work out of the box for you.
 SexyBookmarks is a cool plugin for wordpress that includes list of social networks to publish content to by Shareaholic (http://sexybookmarks.shareaholic.com/)
 
 == Installation
 Installing SexyBookmarks is pretty simple and straight forward
 
-== Installing as ruby gem
-
-=== Step 1
-To install SexyBookmarks from rubygems jus do the following:
-
-  gem install sexy_bookmarks
-  
-=== Step 2
-Add the gem to your rails app like follows:
-
-  # without bundler add this to environment.rb
-  config.gem 'sexy_bookmarks'
-  
   # in bundler do it like this:
-  gem 'sexy_bookmarks'
+  gem 'sexy_bookmarks', :git => "git://github.com/deathbob/sexy_bookmarks.git"
 
-== Installing as plugin
-
-=== Step 1
-To install SexyBookmarks just do the following:
-
-  script/plugin install git://github.com/EnriqueVidal/sexy_bookmarks.git
-  
-And thats it SexyBookmarks, has already been installed
 
 === Step 2
 Add the following to the top of the controller of the page you want to add SexyBookmarks to.
@@ -38,11 +17,11 @@ Add the following to the top of the controller of the page you want to add SexyB
 Then to display the list of links in your page just add this to your view:
 
   <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => @article.title %>
-  
+
 Lastly add the following to the <head> element of your application view:
 
   include_sexy_bookmarks_if_needed
-  
+
 This will load the CSS needed by SexyBookmarks whenever its needed.
 
 == Configuration
@@ -58,6 +37,10 @@ The show_sexy_bookmarks method receives 3 parameters, this is what its signature
   show_sexy_bookmarks(content, socials = nil, per_row = 8)
 
 * The content parameter is a hash that contains, all the article text options such as title, permalink and post summary
+
+REQUIRED KEYS FOR CONTENT / OPTIONS HASH
+:title, :permalink, :post_summary
+
 * The socials parameter is an array that contains a collection of the social networks we wish to show
 * Finally the per_row parameter is the number of social network icons that fit in your design, by default SexyBookmarks will use 100% of the space available, knowing how many links can fit is useful to properly show/hide the links upon hover
 
@@ -67,12 +50,12 @@ Only the first parameter is mandatory.
 By default SexyBookmarks will show all the links available, however you can choose what links to show simply by passing the show_sexy_bookmarks an array of networks like this:
 
   <%= show_sexy_bookmarks( options, [ :facebook, :linkedin, :googlebuzz, :myspace ] )
-  
+
 == Loading stylesheets only when necessary
 The uses_sexy_bookmarks method on your controller set an instance variable to true which is the compared to load the CSS in your application layout, this method also takes a parameter:
 
   uses_sexy_bookmarks :only => [ :show ]
-  
+
 This will ensure that the SexyBookmark CSS is only loaded when you visit the actions in the method's parameter.
 
 ==== All supported Social Network options
