@@ -139,7 +139,7 @@ kaevur:
   message: 'Share this on Kaevur'
 
 linkedin:
-  url: 'http://www.linkedin.com/shareArticle?mini=true&url=PERMALINK&title=TITLE&summary=POST_SUMMARY&source=SITE_NAME'
+  url:  'http://www.linkedin.com/shareArticle?mini=true&url=ESCAPED_PERMALINK&title=TITLE&ro=false&summary=POST_SUMMARY&source='
   message: 'Share this on LinkedIn'
 
 memoryru:

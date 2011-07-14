@@ -58,6 +58,17 @@ The uses_sexy_bookmarks method on your controller set an instance variable to tr
 
 This will ensure that the SexyBookmark CSS is only loaded when you visit the actions in the method's parameter.
 
+== Important Notes
+  In development you will probably be hitting these things with localhost:3000 or similar, some of
+  these do not work with such an address, usually because they try and scrape it or are doing some sort
+  url verificiation on their end.  Below is a list of services that will appear not to work when passed a url
+  of http://localhost:3000  They should work on your production site.
+
+* LinkedIn
+* Stumbleupon
+
+
+
 ==== All supported Social Network options
 
 This is the list of all the suported social networks, thanks asn for the observation:
@@ -100,7 +111,7 @@ This is the list of all the suported social networks, thanks asn for the observa
 * linkedin
 * memoryru
 * meneame
-* mixx
+* mixx # removed, has been acquired and is defunct.
 * moemesto
 * mylinkvault
 * myspace
