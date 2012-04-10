@@ -40,7 +40,7 @@ module SexyBookmarksMacrosHelper
     end.join('')
 
     unordered_list = content_tag( 'ul', list_items.html_safe, :class => 'socials' )
-    content_tag( 'div', unordered_list.html_safe, { :class => 'shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-shr', :id => 'sexybookmarks' } ) + reveal_social_list(socials.count, per_row)
+    content_tag( 'div', unordered_list.html_safe, { :class => 'shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-caring', :id => 'sexybookmarks' } ) + reveal_social_list(socials.count, per_row)
   end
 
   def include_sexy_bookmarks_if_needed
