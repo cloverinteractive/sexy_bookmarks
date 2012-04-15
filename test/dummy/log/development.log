@@ -1,0 +1,2760 @@
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 20:53:20 -0700 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:398:in `retrieve_connection'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:67:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__245830642__call__4__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.9ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:08:37 -0700 2012
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:09:08 -0700 2012
+
+AbstractController::ActionNotFound (The action 'test_with_defaults' could not be found for SampleController):
+  actionpack (3.2.3) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__2048479540__call__4__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:11:28 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 142ms
+
+ActionView::Template::Error (couldn't find file 'sexy_bookmarks'
+  (in /Users/enrique/Desktop/sexy_bookmarks/test/dummy/app/assets/stylesheets/application.css:13)):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__274326266_2272517520'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:12:56 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (couldn't find file 'sexy_bookmarks'
+  (in /Users/enrique/Desktop/sexy_bookmarks/test/dummy/app/assets/stylesheets/application.css:12)):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__274326266_2272517520'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:12:57 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (couldn't find file 'sexy_bookmarks'
+  (in /Users/enrique/Desktop/sexy_bookmarks/test/dummy/app/assets/stylesheets/application.css:12)):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__274326266_2272517520'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:12:57 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (couldn't find file 'sexy_bookmarks'
+  (in /Users/enrique/Desktop/sexy_bookmarks/test/dummy/app/assets/stylesheets/application.css:12)):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__274326266_2272517520'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:13:22 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (couldn't find file 'sexy_bookmarks'
+  (in /Users/enrique/Desktop/sexy_bookmarks/test/dummy/app/assets/stylesheets/application.css:3)):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__274326266_2272517520'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:15:50 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 98ms
+
+ActionView::Template::Error (couldn't find file 'sexy_bookmarks'
+  (in /Users/enrique/Desktop/sexy_bookmarks/test/dummy/app/assets/stylesheets/application.css:3)):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1006806171_2261606480'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:15:52 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (couldn't find file 'sexy_bookmarks'
+  (in /Users/enrique/Desktop/sexy_bookmarks/test/dummy/app/assets/stylesheets/application.css:3)):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1006806171_2261606480'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:22:28 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (1.8ms)
+Compiled jquery.sexy_bookmarks.css  (1295ms)  (pid 11978)
+Compiled sexy_bookmarks.css  (1310ms)  (pid 11978)
+Compiled application.css  (1323ms)  (pid 11978)
+Completed 500 Internal Server Error in 1369ms
+
+ActionView::Template::Error (couldn't find file 'jquery'
+  (in /Users/enrique/Desktop/sexy_bookmarks/test/dummy/app/assets/javascripts/application.js:13)):
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___190743233_2271225060'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:23:31 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (couldn't find file 'jquery'
+  (in /Users/enrique/Desktop/sexy_bookmarks/test/dummy/app/assets/javascripts/application.js:13)):
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__86618883_2176205660'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:23:32 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (couldn't find file 'jquery'
+  (in /Users/enrique/Desktop/sexy_bookmarks/test/dummy/app/assets/javascripts/application.js:13)):
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__86618883_2176205660'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:24:44 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (2.0ms)
+Compiled jquery.js  (8ms)  (pid 12314)
+Compiled jquery_ujs.js  (3ms)  (pid 12314)
+Compiled application.js  (157ms)  (pid 12314)
+Completed 200 OK in 248ms (Views: 246.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:24:45 -0700 2012
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:24:45 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 200 OK (7ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:24:45 -0700 2012
+Served asset /sexy_bookmarks.css - 200 OK (89ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:24:45 -0700 2012
+Served asset /jquery.js - 200 OK (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:24:45 -0700 2012
+Served asset /jquery_ujs.js - 200 OK (70ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:24:45 -0700 2012
+Served asset /application.js - 200 OK (19ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:24:52 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:25:07 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:29:14 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (uninitialized constant SexyBookmarks::MacrosHelper::HahsWithIndifferentAccess):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb__1145285040_2176756580'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:30:00 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined method `empty?' for nil:NilClass):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb__602164524_2230659800'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:30:39 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___473202726_2286571340'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:30:41 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 27.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:30:41 -0700 2012
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:30:41 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:30:41 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:30:41 -0700 2012
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:30:41 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:30:41 -0700 2012
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:30:41 -0700 2012
+Served asset /sharing-caring-hearts.png - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/sharing-caring-hearts.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:31:35 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `logger' for SexyBookmarks::Rails:Module):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___1066426676_2214964620'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:32:03 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>>> nil <<<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___1562270873_2260690500'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:32:36 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>>> nil <<<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___489612266_2258158620'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:33:06 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>>> ["googlebookmarks", "scriptstyle", "oknotizie", "stumpedia", "bonzobox", "diigo", "100zakladok", "myspace", "pingfm", "facebook", "bebo", "springpad", "slashdot", "plurk", "propeller", "blinklist", "dzone", "n4g", "mylinkvault", "identica", "bitacoras", "blogmarks", "ekudos", "wykop", "yahoobuzz", "bobrdobr", "hyves", "twittley", "netvibes", "wikio", "meneame", "globalgrind", "reddit", "designbump", "tumblr", "tipd", "strands", "twitter", "memoryru", "linkedin", "current", "xerpi", "buzzster", "delicious", "googlebuzz", "virb", "digg", "blogger", "sphinn", "netvouz", "hatena", "techmeme", "stumbleupon", "posterous", "googlereader", "webblend", "jumptags", "friendfeed", "zabox", "technorati", "blogengage", "pfbuzz", "pusha", "mixx", "printfriendly", "kaevur", "plaxo", "boxnet", "squidoo", "viadeo", "yandex", "orkut", "nujij", "faqpal", "moemesto", "izeby", "hackernews", "evernote", "newsvine", "fwisp", "designfloat", "ning"] <<<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb__1373370629_2221257580'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:33:24 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___862290134_2239976320'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:33:25 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 27.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:33:25 -0700 2012
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:33:25 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:33:25 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:33:25 -0700 2012
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:33:25 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:33:25 -0700 2012
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:33:25 -0700 2012
+Served asset /sharing-caring-hearts.png - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/sharing-caring-hearts.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:33:29 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 84ms (Views: 83.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:33:29 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:33:29 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:33:29 -0700 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:33:29 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:33:29 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:33:29 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:33:29 -0700 2012
+Served asset /sharing-caring-hearts.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/sharing-caring-hearts.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:35:08 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___458049553_2263345320'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:35:12 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 27.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:35:12 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:35:12 -0700 2012
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:35:12 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:35:12 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:35:12 -0700 2012
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:35:12 -0700 2012
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:35:12 -0700 2012
+Served asset /sharing-caring-hearts.png - 200 OK (16ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:36:55 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (8.8ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb__2079821644_2191264900'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:36:58 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>>  <<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 27.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:36:58 -0700 2012
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:36:58 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:36:58 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:36:58 -0700 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:36:58 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:36:58 -0700 2012
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:36:58 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:41:14 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>>  <<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:15 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:15 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:15 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:15 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:15 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:15 -0700 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:41:15 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:41:16 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>>  <<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 6.1ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:16 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:16 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:16 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:16 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:16 -0700 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:16 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:41:16 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:41:30 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo', :post_summary => 'bar' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb__1392683386_2244143820'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:41:31 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 30.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:31 -0700 2012
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:31 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:31 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:31 -0700 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:31 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:31 -0700 2012
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:41:31 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:41:37 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:37 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:37 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:37 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:41:37 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:37 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:41:37 -0700 2012
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:41:37 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:43:01 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>> "http://www.ekudos.nl/artikel/nieuw?url=PERMALINK&title=TITLE&desc=POST_SUMMARY" <<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo', :post_summary => 'bar' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb__1968954505_2183648500'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:43:02 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 27.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:43:02 -0700 2012
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:43:02 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:43:02 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:43:02 -0700 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:43:02 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:43:02 -0700 2012
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:43:02 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:43:07 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 6.2ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:43:07 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:43:07 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:43:07 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:43:07 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:43:07 -0700 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:43:08 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:43:08 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:43:13 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:43:13 -0700 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:43:13 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:43:13 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:43:13 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:43:13 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:43:13 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:43:13 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:43:23 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>> "http://www.ekudos.nl/artikel/nieuw?url=PERMALINK&title=TITLE&desc=POST_SUMMARY" <<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo', :post_summary => 'bar' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___134088934_2199014320'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:44:44 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo', :post_summary => 'bar' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___1120465546_2161036180'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:44:51 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 27.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:44:51 -0700 2012
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:44:51 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:44:51 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:44:51 -0700 2012
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:44:51 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:44:51 -0700 2012
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:44:51 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:45:00 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo', :post_summary => 'bar' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb__1742404533_2226613780'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:47:15 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo', :post_summary => 'bar' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___1728828120_2250017360'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:47:41 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>> http://bitacoras.com/anotaciones/PERMALINK <<<
+>>> http://www.ekudos.nl/artikel/nieuw?url=PERMALINK&title=foo&desc=POST_SUMMARY <<<
+>>> http://promote.orkut.com/preview?nt=orkut.com&tt=foo&du=PERMALINK&cn=POST_SUMMARY <<<
+>>> http://identi.ca//index.php?action=newnotice&status_textarea=Reading:+&quot;foo&quot;+-+from+FETCH_URL <<<
+>>> http://bobrdobr.ru/addext.html?url=PERMALINK&title=foo <<<
+>>> http://www.netvouz.com/action/submitBookmark?url=PERMALINK&title=foo&popup=no <<<
+>>> http://springpadit.com/clip.action?body=POST_SUMMARY&url=PERMALINK&format=microclip&title=foo&isSelected=true <<<
+>>> http://meneame.net/submit.php?url=PERMALINK <<<
+>>> http://www.100zakladok.ru/save/?bmurl=PERMALINK&bmtitle=foo <<<
+>>> http://blogmarks.net/my/new.php?mini=1&simple=1&url=PERMALINK&title=foo <<<
+>>> http://www.wikio.com/sharethis?url=PERMALINK&title=foo <<<
+>>> http://news.ycombinator.com/submitlink?u=PERMALINK&t=foo <<<
+>>> http://kaevur.com/submit.php?url=PERMALINK <<<
+>>> http://www.tumblr.com/share/link?url=PERMALINK&name=foo&description=POST_SUMMARY <<<
+>>> http://zakladki.yandex.ru/userarea/links/addfromfav.asp?bAddLink_x=1&lurl=PERMALINK&lname=foo <<<
+>>> http://current.com/clipper.htm?url=PERMALINK&title=foo <<<
+>>> http://buzz.yahoo.com/submit/?submitUrl=PERMALINK&submitHeadline=foo&submitSummary=YAHOOTEASER&submitCategory=YAHOOCATEGORY&submitAssetType=YAHOOMEDIATYPE <<<
+>>> http://posterous.com/share?linkto=PERMALINK&title=foo&selection=POST_SUMMARY <<<
+>>> http://fwisp.com/submit?url=PERMALINK <<<
+>>> http://www.xerpi.com/block/add_link_from_extension?url=PERMALINK&title=foo <<<
+>>> http://globalgrind.com/submission/submit.aspx?url=PERMALINK&type=Article&title=foo <<<
+>>> http://sphinn.com/index.php?c=post&m=submit&link=PERMALINK <<<
+>>> http://delicious.com/post?url=PERMALINK&title=foo <<<
+>>> http://moemesto.ru/post.php?url=PERMALINK&title=foo <<<
+>>> http://www.plurk.com/m?content=foo+-+PERMALINK&qualifier=shares <<<
+>>> http://www.jumptags.com/add/?url=PERMALINK&title=foo <<<
+>>> http://www.stumbleupon.com/submit?url=PERMALINK&title=foo <<<
+>>> http://twitter.com/home/?status=Tip+@Techmeme+PERMALINK+&quot;foo&quot;&source=shareaholic <<<
+>>> javascript:var%20s=document.createElement('script');s.src='http://www.buzzster.com/javascripts/bzz_adv.js';s.type='text/javascript';void(document.getElementsByTagName('head')[0].appendChild(s)); <<<
+>>> http://bookmarks.ning.com/addItem.php?url=PERMALINK&T=foo <<<
+>>> https://twitter.com/share?url=PERMALINK&text=POST_SUMMARY <<<
+>>> http://www.hyves.nl/profilemanage/add/tips/?name=foo&text=POST_SUMMARY+-+PERMALINK&rating=5 <<<
+>>> http://bonzobox.com/toolbar/add?pop=1&u=PERMALINK&t=foo&d=POST_SUMMARY <<<
+>>> http://pfbuzz.com/submit?url=PERMALINK&title=foo <<<
+>>> https://www.box.net/api/1.0/import?url=PERMALINK&name=foo&description=POST_SUMMARY&import_as=link <<<
+>>> http://www.newsvine.com/_tools/seed&save?u=PERMALINK&h=foo <<<
+>>> http://www.blogengage.com/submit.php?url=PERMALINK <<<
+>>> http://www.n4g.com/tips.aspx?url=PERMALINK&title=foo <<<
+>>> http://thewebblend.com/submit?url=PERMALINK&title=foo&body=POST_SUMMARY <<<
+>>> http://www.facebook.com/share.php?v=4&src=bm&u=PERMALINK&t=foo <<<
+>>> http://www.designfloat.com/submit.php?url=PERMALINK&title=foo <<<
+>>> http://www.myspace.com/Modules/PostTo/Pages/?u=PERMALINK&t=foo&c=POST_SUMMARY <<<
+>>> http://www.google.com/buzz/post?url=PERMALINK&imageurl= <<<
+>>> http://www.mylinkvault.com/link-page.php?u=PERMALINK&n=foo <<<
+>>> http://izeby.com/submit.php?url=PERMALINK <<<
+>>> http://slashdot.org/bookmark.pl?url=PERMALINK&title=foo <<<
+>>> http://www.viadeo.com/shareit/share/?url=PERMALINK&title=foo&urlaffiliate=31138 <<<
+>>> http://www.strands.com/tools/share/webpage?title=foo&url=PERMALINK <<<
+>>> http://twittley.com/submit/?title=foo&url=PERMALINK&desc=POST_SUMMARY&pcat=TWITT_CAT&tags=DEFAULT_TAGS <<<
+>>> http://www.plaxo.com/?share_link=PERMALINK <<<
+>>> http://www.evernote.com/clip.action?url=PERMALINK&title=foo <<<
+>>> http://www.mixx.com/submit?page_url=PERMALINK&title=foo <<<
+>>> http://nujij.nl/jij.lynkx?t=foo&u=PERMALINK&b=POST_SUMMARY <<<
+>>> http://www.dzone.com/links/add.html?url=PERMALINK&title=foo&description=POST_SUMMARY <<<
+>>> http://oknotizie.virgilio.it/post?url=PERMALINK&title=foo <<<
+>>> http://www.google.com/reader/link?url=PERMALINK&title=foo&srcUrl=PERMALINK&srcTitle=foo&snippet=POST_SUMMARY <<<
+>>> http://www.diigo.com/post?url=PERMALINK&title=foo&desc=SEXY_TEASER <<<
+>>> http://www.google.com/bookmarks/mark?op=add&bkmk=PERMALINK&title=foo <<<
+>>> http://ping.fm/ref/?link=PERMALINK&title=foo&body=POST_SUMMARY <<<
+>>> http://www.stumpedia.com/submit?url=PERMALINK&title=foo <<<
+>>> http://www.friendfeed.com/share?title=foo&link=PERMALINK <<<
+>>> http://tipd.com/submit.php?url=PERMALINK <<<
+>>> http://www.squidoo.com/lensmaster/bookmark?PERMALINK <<<
+>>> http://www.netvibes.com/share?title=foo&url=PERMALINK <<<
+>>> http://www.blinklist.com/index.php?Action=Blink/addblink.php&Url=PERMALINK&Title=foo <<<
+>>> http://b.hatena.ne.jp/add?mode=confirm&url=PERMALINK&title=foo <<<
+>>> http://www.stumbleupon.com/submit?url=PERMALINK&title=foo <<<
+>>> http://www.propeller.com/submit/?url=PERMALINK <<<
+>>> http://scriptandstyle.com/submit?url=PERMALINK&title=foo <<<
+>>> http://reddit.com/submit?url=PERMALINK&title=foo <<<
+>>> http://digg.com/submit?phase=2&url=PERMALINK&title=foo <<<
+>>> http://designbump.com/submit?url=PERMALINK&title=foo&body=POST_SUMMARY <<<
+>>> http://www.blogger.com/blog_this.pyra?t&u=PERMALINK&n=foo&pli=1 <<<
+>>> http://virb.com/share?external&v=2&url=PERMALINK&title=foo <<<
+>>> http://www.wykop.pl/dodaj?url=PERMALINK&title=foo <<<
+>>> http://memori.ru/link/?sm=1&u_data[url]=PERMALINK&u_data[name]=foo <<<
+>>> http://www.pusha.se/posta?url=PERMALINK&title=foo <<<
+>>> http://www.faqpal.com/submit?url=PERMALINK <<<
+>>> http://www.printfriendly.com/print?url=PERMALINK <<<
+>>> http://www.linkedin.com/shareArticle?mini=true&url=ESCAPED_PERMALINK&title=foo&ro=false&summary=POST_SUMMARY&source= <<<
+>>> http://www.bebo.com/c/share?Url=PERMALINK&Title=foo <<<
+>>> http://www.zabox.net/submit.php?url=PERMALINK <<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 158ms (Views: 157.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:47:42 -0700 2012
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:47:42 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:47:42 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:47:42 -0700 2012
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:47:42 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:47:42 -0700 2012
+Served asset /application.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 21:47:42 -0700 2012
+Served asset /shr-sprite.png - 200 OK (66ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:47:42 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:48:43 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>> http://www.dzone.com/links/add.html?url=PERMALINK&title=foo&description=POST_SUMMARY <<<
+>>> http://bitacoras.com/anotaciones/PERMALINK <<<
+>>> http://www.jumptags.com/add/?url=PERMALINK&title=foo <<<
+>>> http://delicious.com/post?url=PERMALINK&title=foo <<<
+>>> http://twittley.com/submit/?title=foo&url=PERMALINK&desc=POST_SUMMARY&pcat=TWITT_CAT&tags=DEFAULT_TAGS <<<
+>>> http://www.pusha.se/posta?url=PERMALINK&title=foo <<<
+>>> http://oknotizie.virgilio.it/post?url=PERMALINK&title=foo <<<
+>>> http://www.zabox.net/submit.php?url=PERMALINK <<<
+>>> http://www.designfloat.com/submit.php?url=PERMALINK&title=foo <<<
+>>> http://www.stumpedia.com/submit?url=PERMALINK&title=foo <<<
+>>> http://www.myspace.com/Modules/PostTo/Pages/?u=PERMALINK&t=foo&c=POST_SUMMARY <<<
+>>> http://www.hyves.nl/profilemanage/add/tips/?name=foo&text=POST_SUMMARY+-+PERMALINK&rating=5 <<<
+>>> http://www.mylinkvault.com/link-page.php?u=PERMALINK&n=foo <<<
+>>> http://www.tumblr.com/share/link?url=PERMALINK&name=foo&description=POST_SUMMARY <<<
+>>> http://tipd.com/submit.php?url=PERMALINK <<<
+>>> http://www.printfriendly.com/print?url=PERMALINK <<<
+>>> http://www.strands.com/tools/share/webpage?title=foo&url=PERMALINK <<<
+>>> http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fmycoolsite.com%2Fmy_cool_article&title=foo&ro=false&summary=POST_SUMMARY&source= <<<
+>>> http://memori.ru/link/?sm=1&u_data[url]=PERMALINK&u_data[name]=foo <<<
+>>> http://posterous.com/share?linkto=PERMALINK&title=foo&selection=POST_SUMMARY <<<
+>>> http://virb.com/share?external&v=2&url=PERMALINK&title=foo <<<
+>>> http://digg.com/submit?phase=2&url=PERMALINK&title=foo <<<
+>>> http://izeby.com/submit.php?url=PERMALINK <<<
+>>> http://www.xerpi.com/block/add_link_from_extension?url=PERMALINK&title=foo <<<
+>>> http://www.evernote.com/clip.action?url=PERMALINK&title=foo <<<
+>>> http://www.friendfeed.com/share?title=foo&link=PERMALINK <<<
+>>> http://fwisp.com/submit?url=PERMALINK <<<
+>>> http://buzz.yahoo.com/submit/?submitUrl=PERMALINK&submitHeadline=foo&submitSummary=YAHOOTEASER&submitCategory=YAHOOCATEGORY&submitAssetType=YAHOOMEDIATYPE <<<
+>>> http://identi.ca//index.php?action=newnotice&status_textarea=Reading:+&quot;foo&quot;+-+from+FETCH_URL <<<
+>>> http://sphinn.com/index.php?c=post&m=submit&link=PERMALINK <<<
+>>> http://kaevur.com/submit.php?url=PERMALINK <<<
+>>> javascript:var%20s=document.createElement('script');s.src='http://www.buzzster.com/javascripts/bzz_adv.js';s.type='text/javascript';void(document.getElementsByTagName('head')[0].appendChild(s)); <<<
+>>> http://meneame.net/submit.php?url=PERMALINK <<<
+>>> http://www.diigo.com/post?url=PERMALINK&title=foo&desc=SEXY_TEASER <<<
+>>> http://pfbuzz.com/submit?url=PERMALINK&title=foo <<<
+>>> http://bobrdobr.ru/addext.html?url=PERMALINK&title=foo <<<
+>>> http://current.com/clipper.htm?url=PERMALINK&title=foo <<<
+>>> http://zakladki.yandex.ru/userarea/links/addfromfav.asp?bAddLink_x=1&lurl=PERMALINK&lname=foo <<<
+>>> http://blogmarks.net/my/new.php?mini=1&simple=1&url=PERMALINK&title=foo <<<
+>>> http://www.viadeo.com/shareit/share/?url=PERMALINK&title=foo&urlaffiliate=31138 <<<
+>>> http://www.mixx.com/submit?page_url=PERMALINK&title=foo <<<
+>>> http://www.google.com/buzz/post?url=PERMALINK&imageurl= <<<
+>>> http://moemesto.ru/post.php?url=PERMALINK&title=foo <<<
+>>> http://www.plaxo.com/?share_link=PERMALINK <<<
+>>> http://www.netvibes.com/share?title=foo&url=PERMALINK <<<
+>>> http://promote.orkut.com/preview?nt=orkut.com&tt=foo&du=PERMALINK&cn=POST_SUMMARY <<<
+>>> http://designbump.com/submit?url=PERMALINK&title=foo&body=POST_SUMMARY <<<
+>>> http://ping.fm/ref/?link=PERMALINK&title=foo&body=POST_SUMMARY <<<
+>>> http://springpadit.com/clip.action?body=POST_SUMMARY&url=PERMALINK&format=microclip&title=foo&isSelected=true <<<
+>>> http://nujij.nl/jij.lynkx?t=foo&u=PERMALINK&b=POST_SUMMARY <<<
+>>> http://www.wykop.pl/dodaj?url=PERMALINK&title=foo <<<
+>>> http://www.propeller.com/submit/?url=PERMALINK <<<
+>>> https://twitter.com/share?url=PERMALINK&text=POST_SUMMARY <<<
+>>> http://www.blogger.com/blog_this.pyra?t&u=PERMALINK&n=foo&pli=1 <<<
+>>> http://b.hatena.ne.jp/add?mode=confirm&url=PERMALINK&title=foo <<<
+>>> http://www.newsvine.com/_tools/seed&save?u=PERMALINK&h=foo <<<
+>>> http://bookmarks.ning.com/addItem.php?url=PERMALINK&T=foo <<<
+>>> http://www.squidoo.com/lensmaster/bookmark?PERMALINK <<<
+>>> http://www.wikio.com/sharethis?url=PERMALINK&title=foo <<<
+>>> http://news.ycombinator.com/submitlink?u=PERMALINK&t=foo <<<
+>>> http://www.blinklist.com/index.php?Action=Blink/addblink.php&Url=PERMALINK&Title=foo <<<
+>>> http://www.faqpal.com/submit?url=PERMALINK <<<
+>>> http://www.100zakladok.ru/save/?bmurl=PERMALINK&bmtitle=foo <<<
+>>> http://www.ekudos.nl/artikel/nieuw?url=PERMALINK&title=foo&desc=POST_SUMMARY <<<
+>>> http://www.netvouz.com/action/submitBookmark?url=PERMALINK&title=foo&popup=no <<<
+>>> https://www.box.net/api/1.0/import?url=PERMALINK&name=foo&description=POST_SUMMARY&import_as=link <<<
+>>> http://www.bebo.com/c/share?Url=PERMALINK&Title=foo <<<
+>>> http://scriptandstyle.com/submit?url=PERMALINK&title=foo <<<
+>>> http://www.blogengage.com/submit.php?url=PERMALINK <<<
+>>> http://twitter.com/home/?status=Tip+@Techmeme+PERMALINK+&quot;foo&quot;&source=shareaholic <<<
+>>> http://www.stumbleupon.com/submit?url=PERMALINK&title=foo <<<
+>>> http://www.facebook.com/share.php?v=4&src=bm&u=PERMALINK&t=foo <<<
+>>> http://slashdot.org/bookmark.pl?url=PERMALINK&title=foo <<<
+>>> http://reddit.com/submit?url=PERMALINK&title=foo <<<
+>>> http://bonzobox.com/toolbar/add?pop=1&u=PERMALINK&t=foo&d=POST_SUMMARY <<<
+>>> http://www.google.com/bookmarks/mark?op=add&bkmk=PERMALINK&title=foo <<<
+>>> http://globalgrind.com/submission/submit.aspx?url=PERMALINK&type=Article&title=foo <<<
+>>> http://www.google.com/reader/link?url=PERMALINK&title=foo&srcUrl=PERMALINK&srcTitle=foo&snippet=POST_SUMMARY <<<
+>>> http://thewebblend.com/submit?url=PERMALINK&title=foo&body=POST_SUMMARY <<<
+>>> http://www.plurk.com/m?content=foo+-+PERMALINK&qualifier=shares <<<
+>>> http://www.n4g.com/tips.aspx?url=PERMALINK&title=foo <<<
+>>> http://www.stumbleupon.com/submit?url=PERMALINK&title=foo <<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 136ms (Views: 134.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:48:43 -0700 2012
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:48:43 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:48:43 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:48:43 -0700 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:48:43 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:48:43 -0700 2012
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 21:48:43 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (15ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:48:43 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:49:29 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>> http://posterous.com/share?linkto=http://mycoolsite.com/my_cool_article&title=foo&selection=POST_SUMMARY <<<
+>>> http://www.plaxo.com/?share_link=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.faqpal.com/submit?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.jumptags.com/add/?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.bebo.com/c/share?Url=http://mycoolsite.com/my_cool_article&Title=foo <<<
+>>> http://www.google.com/reader/link?url=http://mycoolsite.com/my_cool_article&title=foo&srcUrl=http://mycoolsite.com/my_cool_article&srcTitle=foo&snippet=POST_SUMMARY <<<
+>>> http://kaevur.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://bobrdobr.ru/addext.html?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.facebook.com/share.php?v=4&src=bm&u=http://mycoolsite.com/my_cool_article&t=foo <<<
+>>> http://www.friendfeed.com/share?title=foo&link=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.newsvine.com/_tools/seed&save?u=http://mycoolsite.com/my_cool_article&h=foo <<<
+>>> http://www.pusha.se/posta?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://twittley.com/submit/?title=foo&url=http://mycoolsite.com/my_cool_article&desc=POST_SUMMARY&pcat=TWITT_CAT&tags=DEFAULT_TAGS <<<
+>>> http://www.dzone.com/links/add.html?url=http://mycoolsite.com/my_cool_article&title=foo&description=POST_SUMMARY <<<
+>>> http://www.wikio.com/sharethis?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://zakladki.yandex.ru/userarea/links/addfromfav.asp?bAddLink_x=1&lurl=http://mycoolsite.com/my_cool_article&lname=foo <<<
+>>> http://www.propeller.com/submit/?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.diigo.com/post?url=http://mycoolsite.com/my_cool_article&title=foo&desc=SEXY_TEASER <<<
+>>> http://www.evernote.com/clip.action?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.tumblr.com/share/link?url=http://mycoolsite.com/my_cool_article&name=foo&description=POST_SUMMARY <<<
+>>> http://slashdot.org/bookmark.pl?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.plurk.com/m?content=foo+-+http://mycoolsite.com/my_cool_article&qualifier=shares <<<
+>>> javascript:var%20s=document.createElement('script');s.src='http://www.buzzster.com/javascripts/bzz_adv.js';s.type='text/javascript';void(document.getElementsByTagName('head')[0].appendChild(s)); <<<
+>>> http://current.com/clipper.htm?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://b.hatena.ne.jp/add?mode=confirm&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://fwisp.com/submit?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://memori.ru/link/?sm=1&u_data[url]=http://mycoolsite.com/my_cool_article&u_data[name]=foo <<<
+>>> http://www.netvouz.com/action/submitBookmark?url=http://mycoolsite.com/my_cool_article&title=foo&popup=no <<<
+>>> http://www.designfloat.com/submit.php?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.ekudos.nl/artikel/nieuw?url=http://mycoolsite.com/my_cool_article&title=foo&desc=POST_SUMMARY <<<
+>>> http://sphinn.com/index.php?c=post&m=submit&link=http://mycoolsite.com/my_cool_article <<<
+>>> http://bookmarks.ning.com/addItem.php?url=http://mycoolsite.com/my_cool_article&T=foo <<<
+>>> http://www.wykop.pl/dodaj?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> https://www.box.net/api/1.0/import?url=http://mycoolsite.com/my_cool_article&name=foo&description=POST_SUMMARY&import_as=link <<<
+>>> http://www.myspace.com/Modules/PostTo/Pages/?u=http://mycoolsite.com/my_cool_article&t=foo&c=POST_SUMMARY <<<
+>>> http://globalgrind.com/submission/submit.aspx?url=http://mycoolsite.com/my_cool_article&type=Article&title=foo <<<
+>>> http://www.hyves.nl/profilemanage/add/tips/?name=foo&text=POST_SUMMARY+-+http://mycoolsite.com/my_cool_article&rating=5 <<<
+>>> https://twitter.com/share?url=http://mycoolsite.com/my_cool_article&text=POST_SUMMARY <<<
+>>> http://www.zabox.net/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://bitacoras.com/anotaciones/http://mycoolsite.com/my_cool_article <<<
+>>> http://reddit.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://blogmarks.net/my/new.php?mini=1&simple=1&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://designbump.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo&body=POST_SUMMARY <<<
+>>> http://meneame.net/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.netvibes.com/share?title=foo&url=http://mycoolsite.com/my_cool_article <<<
+>>> http://tipd.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.100zakladok.ru/save/?bmurl=http://mycoolsite.com/my_cool_article&bmtitle=foo <<<
+>>> http://www.stumbleupon.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.n4g.com/tips.aspx?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://pfbuzz.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://promote.orkut.com/preview?nt=orkut.com&tt=foo&du=http://mycoolsite.com/my_cool_article&cn=POST_SUMMARY <<<
+>>> http://www.blogger.com/blog_this.pyra?t&u=http://mycoolsite.com/my_cool_article&n=foo&pli=1 <<<
+>>> http://news.ycombinator.com/submitlink?u=http://mycoolsite.com/my_cool_article&t=foo <<<
+>>> http://moemesto.ru/post.php?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.squidoo.com/lensmaster/bookmark?http://mycoolsite.com/my_cool_article <<<
+>>> http://izeby.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://delicious.com/post?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://identi.ca//index.php?action=newnotice&status_textarea=Reading:+&quot;foo&quot;+-+from+http://mycoolsite.com/my_cool_article <<<
+>>> http://nujij.nl/jij.lynkx?t=foo&u=http://mycoolsite.com/my_cool_article&b=POST_SUMMARY <<<
+>>> http://bonzobox.com/toolbar/add?pop=1&u=http://mycoolsite.com/my_cool_article&t=foo&d=POST_SUMMARY <<<
+>>> http://www.blinklist.com/index.php?Action=Blink/addblink.php&Url=http://mycoolsite.com/my_cool_article&Title=foo <<<
+>>> http://www.viadeo.com/shareit/share/?url=http://mycoolsite.com/my_cool_article&title=foo&urlaffiliate=31138 <<<
+>>> http://www.xerpi.com/block/add_link_from_extension?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fmycoolsite.com%2Fmy_cool_article&title=foo&ro=false&summary=POST_SUMMARY&source= <<<
+>>> http://ping.fm/ref/?link=http://mycoolsite.com/my_cool_article&title=foo&body=POST_SUMMARY <<<
+>>> http://springpadit.com/clip.action?body=POST_SUMMARY&url=http://mycoolsite.com/my_cool_article&format=microclip&title=foo&isSelected=true <<<
+>>> http://www.mixx.com/submit?page_url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.google.com/buzz/post?url=http://mycoolsite.com/my_cool_article&imageurl= <<<
+>>> http://www.stumpedia.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://twitter.com/home/?status=Tip+@Techmeme+http://mycoolsite.com/my_cool_article+&quot;foo&quot;&source=shareaholic <<<
+>>> http://digg.com/submit?phase=2&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.strands.com/tools/share/webpage?title=foo&url=http://mycoolsite.com/my_cool_article <<<
+>>> http://oknotizie.virgilio.it/post?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.stumbleupon.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.blogengage.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.google.com/bookmarks/mark?op=add&bkmk=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.mylinkvault.com/link-page.php?u=http://mycoolsite.com/my_cool_article&n=foo <<<
+>>> http://www.printfriendly.com/print?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://thewebblend.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo&body=POST_SUMMARY <<<
+>>> http://scriptandstyle.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://virb.com/share?external&v=2&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://buzz.yahoo.com/submit/?submitUrl=http://mycoolsite.com/my_cool_article&submitHeadline=foo&submitSummary=YAHOOTEASER&submitCategory=YAHOOCATEGORY&submitAssetType=YAHOOMEDIATYPE <<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 141ms (Views: 140.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:49:29 -0700 2012
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:49:29 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:49:29 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:49:29 -0700 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:49:29 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:49:29 -0700 2012
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:49:29 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (44ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 21:49:29 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:50:37 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>> http://izeby.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://bitacoras.com/anotaciones/http://mycoolsite.com/my_cool_article <<<
+>>> http://delicious.com/post?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.viadeo.com/shareit/share/?url=http://mycoolsite.com/my_cool_article&title=foo&urlaffiliate=31138 <<<
+>>> https://www.box.net/api/1.0/import?url=http://mycoolsite.com/my_cool_article&name=foo&description=bar&import_as=link <<<
+>>> http://current.com/clipper.htm?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.wikio.com/sharethis?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://tipd.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.netvibes.com/share?title=foo&url=http://mycoolsite.com/my_cool_article <<<
+>>> http://twitter.com/home/?status=Tip+@Techmeme+http://mycoolsite.com/my_cool_article+&quot;foo&quot;&source=shareaholic <<<
+>>> http://www.newsvine.com/_tools/seed&save?u=http://mycoolsite.com/my_cool_article&h=foo <<<
+>>> http://www.jumptags.com/add/?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.mylinkvault.com/link-page.php?u=http://mycoolsite.com/my_cool_article&n=foo <<<
+>>> javascript:var%20s=document.createElement('script');s.src='http://www.buzzster.com/javascripts/bzz_adv.js';s.type='text/javascript';void(document.getElementsByTagName('head')[0].appendChild(s)); <<<
+>>> http://www.myspace.com/Modules/PostTo/Pages/?u=http://mycoolsite.com/my_cool_article&t=foo&c=bar <<<
+>>> http://news.ycombinator.com/submitlink?u=http://mycoolsite.com/my_cool_article&t=foo <<<
+>>> http://moemesto.ru/post.php?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.ekudos.nl/artikel/nieuw?url=http://mycoolsite.com/my_cool_article&title=foo&desc=bar <<<
+>>> http://posterous.com/share?linkto=http://mycoolsite.com/my_cool_article&title=foo&selection=bar <<<
+>>> http://www.blogengage.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.strands.com/tools/share/webpage?title=foo&url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.facebook.com/share.php?v=4&src=bm&u=http://mycoolsite.com/my_cool_article&t=foo <<<
+>>> http://globalgrind.com/submission/submit.aspx?url=http://mycoolsite.com/my_cool_article&type=Article&title=foo <<<
+>>> http://bookmarks.ning.com/addItem.php?url=http://mycoolsite.com/my_cool_article&T=foo <<<
+>>> http://b.hatena.ne.jp/add?mode=confirm&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fmycoolsite.com%2Fmy_cool_article&title=foo&ro=false&summary=bar&source= <<<
+>>> http://slashdot.org/bookmark.pl?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.dzone.com/links/add.html?url=http://mycoolsite.com/my_cool_article&title=foo&description=bar <<<
+>>> http://www.printfriendly.com/print?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://oknotizie.virgilio.it/post?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.plaxo.com/?share_link=http://mycoolsite.com/my_cool_article <<<
+>>> http://meneame.net/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.blinklist.com/index.php?Action=Blink/addblink.php&Url=http://mycoolsite.com/my_cool_article&Title=foo <<<
+>>> http://www.mixx.com/submit?page_url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.propeller.com/submit/?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://springpadit.com/clip.action?body=bar&url=http://mycoolsite.com/my_cool_article&format=microclip&title=foo&isSelected=true <<<
+>>> http://www.evernote.com/clip.action?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.diigo.com/post?url=http://mycoolsite.com/my_cool_article&title=foo&desc=bar <<<
+>>> http://reddit.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.stumbleupon.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.plurk.com/m?content=foo+-+http://mycoolsite.com/my_cool_article&qualifier=shares <<<
+>>> http://identi.ca//index.php?action=newnotice&status_textarea=Reading:+&quot;foo&quot;+-+from+http://mycoolsite.com/my_cool_article <<<
+>>> http://www.designfloat.com/submit.php?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://twittley.com/submit/?title=foo&url=http://mycoolsite.com/my_cool_article&desc=bar&pcat=TWITT_CAT&tags=DEFAULT_TAGS <<<
+>>> http://www.faqpal.com/submit?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://blogmarks.net/my/new.php?mini=1&simple=1&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://fwisp.com/submit?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.xerpi.com/block/add_link_from_extension?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://kaevur.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.stumpedia.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://scriptandstyle.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.squidoo.com/lensmaster/bookmark?http://mycoolsite.com/my_cool_article <<<
+>>> http://buzz.yahoo.com/submit/?submitUrl=http://mycoolsite.com/my_cool_article&submitHeadline=foo&submitSummary=YAHOOTEASER&submitCategory=YAHOOCATEGORY&submitAssetType=YAHOOMEDIATYPE <<<
+>>> http://www.wykop.pl/dodaj?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.hyves.nl/profilemanage/add/tips/?name=foo&text=bar+-+http://mycoolsite.com/my_cool_article&rating=5 <<<
+>>> http://www.tumblr.com/share/link?url=http://mycoolsite.com/my_cool_article&name=foo&description=bar <<<
+>>> http://zakladki.yandex.ru/userarea/links/addfromfav.asp?bAddLink_x=1&lurl=http://mycoolsite.com/my_cool_article&lname=foo <<<
+>>> http://www.zabox.net/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://thewebblend.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo&body=bar <<<
+>>> https://twitter.com/share?url=http://mycoolsite.com/my_cool_article&text=bar <<<
+>>> http://designbump.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo&body=bar <<<
+>>> http://www.pusha.se/posta?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.stumbleupon.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.google.com/bookmarks/mark?op=add&bkmk=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.n4g.com/tips.aspx?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://bonzobox.com/toolbar/add?pop=1&u=http://mycoolsite.com/my_cool_article&t=foo&d=bar <<<
+>>> http://memori.ru/link/?sm=1&u_data[url]=http://mycoolsite.com/my_cool_article&u_data[name]=foo <<<
+>>> http://www.100zakladok.ru/save/?bmurl=http://mycoolsite.com/my_cool_article&bmtitle=foo <<<
+>>> http://www.blogger.com/blog_this.pyra?t&u=http://mycoolsite.com/my_cool_article&n=foo&pli=1 <<<
+>>> http://www.netvouz.com/action/submitBookmark?url=http://mycoolsite.com/my_cool_article&title=foo&popup=no <<<
+>>> http://sphinn.com/index.php?c=post&m=submit&link=http://mycoolsite.com/my_cool_article <<<
+>>> http://nujij.nl/jij.lynkx?t=foo&u=http://mycoolsite.com/my_cool_article&b=bar <<<
+>>> http://bobrdobr.ru/addext.html?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://ping.fm/ref/?link=http://mycoolsite.com/my_cool_article&title=foo&body=bar <<<
+>>> http://promote.orkut.com/preview?nt=orkut.com&tt=foo&du=http://mycoolsite.com/my_cool_article&cn=bar <<<
+>>> http://digg.com/submit?phase=2&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://virb.com/share?external&v=2&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.google.com/buzz/post?url=http://mycoolsite.com/my_cool_article&imageurl= <<<
+>>> http://www.bebo.com/c/share?Url=http://mycoolsite.com/my_cool_article&Title=foo <<<
+>>> http://pfbuzz.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.google.com/reader/link?url=http://mycoolsite.com/my_cool_article&title=foo&srcUrl=http://mycoolsite.com/my_cool_article&srcTitle=foo&snippet=bar <<<
+>>> http://www.friendfeed.com/share?title=foo&link=http://mycoolsite.com/my_cool_article <<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 135ms (Views: 134.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:50:37 -0700 2012
+Served asset /application.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:50:37 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:50:37 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:50:37 -0700 2012
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:50:37 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:50:37 -0700 2012
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 21:50:38 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:50:38 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:50:57 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.6ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:50:57 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:50:57 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:50:57 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:50:57 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:50:57 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:50:57 -0700 2012
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:50:58 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:50:59 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:50:59 -0700 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:50:59 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:50:59 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:50:59 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:50:59 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:50:59 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:50:59 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:52:23 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>> http://promote.orkut.com/preview?nt=orkut.com&tt=foo&du=http://mycoolsite.com/my_cool_article&cn=bar <<<
+>>> http://www.google.com/reader/link?url=http://mycoolsite.com/my_cool_article&title=foo&srcUrl=http://mycoolsite.com/my_cool_article&srcTitle=foo&snippet=bar <<<
+>>> http://buzz.yahoo.com/submit/?submitUrl=http://mycoolsite.com/my_cool_article&submitHeadline=foo&submitSummary=YAHOOTEASER&submitCategory=YAHOOCATEGORY&submitAssetType=YAHOOMEDIATYPE <<<
+>>> http://www.evernote.com/clip.action?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.friendfeed.com/share?title=foo&link=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.mixx.com/submit?page_url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://memori.ru/link/?sm=1&u_data[url]=http://mycoolsite.com/my_cool_article&u_data[name]=foo <<<
+>>> http://www.plaxo.com/?share_link=http://mycoolsite.com/my_cool_article <<<
+>>> https://www.box.net/api/1.0/import?url=http://mycoolsite.com/my_cool_article&name=foo&description=bar&import_as=link <<<
+>>> http://www.blinklist.com/index.php?Action=Blink/addblink.php&Url=http://mycoolsite.com/my_cool_article&Title=foo <<<
+>>> http://posterous.com/share?linkto=http://mycoolsite.com/my_cool_article&title=foo&selection=bar <<<
+>>> http://www.blogger.com/blog_this.pyra?t&u=http://mycoolsite.com/my_cool_article&n=foo&pli=1 <<<
+>>> http://digg.com/submit?phase=2&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> javascript:var%20s=document.createElement('script');s.src='http://www.buzzster.com/javascripts/bzz_adv.js';s.type='text/javascript';void(document.getElementsByTagName('head')[0].appendChild(s)); <<<
+>>> http://www.dzone.com/links/add.html?url=http://mycoolsite.com/my_cool_article&title=foo&description=bar <<<
+>>> http://pfbuzz.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://izeby.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.propeller.com/submit/?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.designfloat.com/submit.php?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.diigo.com/post?url=http://mycoolsite.com/my_cool_article&title=foo&desc=bar <<<
+>>> http://www.viadeo.com/shareit/share/?url=http://mycoolsite.com/my_cool_article&title=foo&urlaffiliate=31138 <<<
+>>> http://www.jumptags.com/add/?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.facebook.com/share.php?v=4&src=bm&u=http://mycoolsite.com/my_cool_article&t=foo <<<
+>>> http://globalgrind.com/submission/submit.aspx?url=http://mycoolsite.com/my_cool_article&type=Article&title=foo <<<
+>>> http://www.squidoo.com/lensmaster/bookmark?http://mycoolsite.com/my_cool_article <<<
+>>> http://kaevur.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.google.com/buzz/post?url=http://mycoolsite.com/my_cool_article&imageurl= <<<
+>>> http://twittley.com/submit/?title=foo&url=http://mycoolsite.com/my_cool_article&desc=bar&pcat=TWITT_CAT&tags=DEFAULT_TAGS <<<
+>>> http://www.stumbleupon.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://bonzobox.com/toolbar/add?pop=1&u=http://mycoolsite.com/my_cool_article&t=foo&d=bar <<<
+>>> http://www.n4g.com/tips.aspx?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.netvibes.com/share?title=foo&url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.100zakladok.ru/save/?bmurl=http://mycoolsite.com/my_cool_article&bmtitle=foo <<<
+>>> http://blogmarks.net/my/new.php?mini=1&simple=1&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://moemesto.ru/post.php?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.mylinkvault.com/link-page.php?u=http://mycoolsite.com/my_cool_article&n=foo <<<
+>>> http://bitacoras.com/anotaciones/http://mycoolsite.com/my_cool_article <<<
+>>> http://www.stumbleupon.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.zabox.net/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.wykop.pl/dodaj?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.myspace.com/Modules/PostTo/Pages/?u=http://mycoolsite.com/my_cool_article&t=foo&c=bar <<<
+>>> http://ping.fm/ref/?link=http://mycoolsite.com/my_cool_article&title=foo&body=bar <<<
+>>> http://thewebblend.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo&body=bar <<<
+>>> http://www.bebo.com/c/share?Url=http://mycoolsite.com/my_cool_article&Title=foo <<<
+>>> http://sphinn.com/index.php?c=post&m=submit&link=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fmycoolsite.com%2Fmy_cool_article&title=foo&ro=false&summary=bar&source= <<<
+>>> http://identi.ca//index.php?action=newnotice&status_textarea=Reading:+&quot;foo&quot;+-+from+http://mycoolsite.com/my_cool_article <<<
+>>> http://b.hatena.ne.jp/add?mode=confirm&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.newsvine.com/_tools/seed&save?u=http://mycoolsite.com/my_cool_article&h=foo <<<
+>>> http://bobrdobr.ru/addext.html?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.faqpal.com/submit?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.google.com/bookmarks/mark?op=add&bkmk=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://news.ycombinator.com/submitlink?u=http://mycoolsite.com/my_cool_article&t=foo <<<
+>>> http://www.pusha.se/posta?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.blogengage.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.ekudos.nl/artikel/nieuw?url=http://mycoolsite.com/my_cool_article&title=foo&desc=bar <<<
+>>> http://www.wikio.com/sharethis?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://nujij.nl/jij.lynkx?t=foo&u=http://mycoolsite.com/my_cool_article&b=bar <<<
+>>> http://slashdot.org/bookmark.pl?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://reddit.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://tipd.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.xerpi.com/block/add_link_from_extension?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://springpadit.com/clip.action?body=bar&url=http://mycoolsite.com/my_cool_article&format=microclip&title=foo&isSelected=true <<<
+>>> http://www.plurk.com/m?content=foo+-+http://mycoolsite.com/my_cool_article&qualifier=shares <<<
+>>> http://current.com/clipper.htm?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://scriptandstyle.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://designbump.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo&body=bar <<<
+>>> http://www.stumpedia.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> https://twitter.com/share?url=http://mycoolsite.com/my_cool_article&text=bar <<<
+>>> http://virb.com/share?external&v=2&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.printfriendly.com/print?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://fwisp.com/submit?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.tumblr.com/share/link?url=http://mycoolsite.com/my_cool_article&name=foo&description=bar <<<
+>>> http://www.netvouz.com/action/submitBookmark?url=http://mycoolsite.com/my_cool_article&title=foo&popup=no <<<
+>>> http://www.hyves.nl/profilemanage/add/tips/?name=foo&text=bar+-+http://mycoolsite.com/my_cool_article&rating=5 <<<
+>>> http://delicious.com/post?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://oknotizie.virgilio.it/post?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://meneame.net/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.strands.com/tools/share/webpage?title=foo&url=http://mycoolsite.com/my_cool_article <<<
+>>> http://bookmarks.ning.com/addItem.php?url=http://mycoolsite.com/my_cool_article&T=foo <<<
+>>> http://twitter.com/home/?status=Tip+@Techmeme+http://mycoolsite.com/my_cool_article+&quot;foo&quot;&source=shareaholic <<<
+>>> http://zakladki.yandex.ru/userarea/links/addfromfav.asp?bAddLink_x=1&lurl=http://mycoolsite.com/my_cool_article&lname=foo <<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 134ms (Views: 133.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:52:23 -0700 2012
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:52:23 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:52:23 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:52:23 -0700 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:52:23 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:52:23 -0700 2012
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 21:52:23 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:52:23 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:53:15 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo', :post_summary => 'bar' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___2096526405_2183655200'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:54:42 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+>>> http://www.100zakladok.ru/save/?bmurl=http://mycoolsite.com/my_cool_article&bmtitle=foo <<<
+>>> http://oknotizie.virgilio.it/post?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://delicious.com/post?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://pfbuzz.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://reddit.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.jumptags.com/add/?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://bobrdobr.ru/addext.html?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://memori.ru/link/?sm=1&u_data[url]=http://mycoolsite.com/my_cool_article&u_data[name]=foo <<<
+>>> http://www.propeller.com/submit/?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://current.com/clipper.htm?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.friendfeed.com/share?title=foo&link=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.blogengage.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.blinklist.com/index.php?Action=Blink/addblink.php&Url=http://mycoolsite.com/my_cool_article&Title=foo <<<
+>>> http://moemesto.ru/post.php?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://tipd.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://bookmarks.ning.com/addItem.php?url=http://mycoolsite.com/my_cool_article&T=foo <<<
+>>> http://zakladki.yandex.ru/userarea/links/addfromfav.asp?bAddLink_x=1&lurl=http://mycoolsite.com/my_cool_article&lname=foo <<<
+>>> http://twittley.com/submit/?title=foo&url=http://mycoolsite.com/my_cool_article&desc=bar&pcat=TWITT_CAT&tags=DEFAULT_TAGS <<<
+>>> http://www.bebo.com/c/share?Url=http://mycoolsite.com/my_cool_article&Title=foo <<<
+>>> http://www.pusha.se/posta?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.strands.com/tools/share/webpage?title=foo&url=http://mycoolsite.com/my_cool_article <<<
+>>> http://thewebblend.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo&body=bar <<<
+>>> http://www.designfloat.com/submit.php?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://buzz.yahoo.com/submit/?submitUrl=http://mycoolsite.com/my_cool_article&submitHeadline=foo&submitSummary=YAHOOTEASER&submitCategory=YAHOOCATEGORY&submitAssetType=YAHOOMEDIATYPE <<<
+>>> http://www.dzone.com/links/add.html?url=http://mycoolsite.com/my_cool_article&title=foo&description=bar <<<
+>>> http://globalgrind.com/submission/submit.aspx?url=http://mycoolsite.com/my_cool_article&type=Article&title=foo <<<
+>>> http://slashdot.org/bookmark.pl?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://sphinn.com/index.php?c=post&m=submit&link=http://mycoolsite.com/my_cool_article <<<
+>>> javascript:var%20s=document.createElement('script');s.src='http://www.buzzster.com/javascripts/bzz_adv.js';s.type='text/javascript';void(document.getElementsByTagName('head')[0].appendChild(s)); <<<
+>>> http://www.diigo.com/post?url=http://mycoolsite.com/my_cool_article&title=foo&desc=bar <<<
+>>> http://www.mylinkvault.com/link-page.php?u=http://mycoolsite.com/my_cool_article&n=foo <<<
+>>> http://springpadit.com/clip.action?body=bar&url=http://mycoolsite.com/my_cool_article&format=microclip&title=foo&isSelected=true <<<
+>>> http://www.mixx.com/submit?page_url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://fwisp.com/submit?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://identi.ca//index.php?action=newnotice&status_textarea=Reading:+&quot;foo&quot;+-+from+http://mycoolsite.com/my_cool_article <<<
+>>> http://twitter.com/home/?status=Tip+@Techmeme+http://mycoolsite.com/my_cool_article+&quot;foo&quot;&source=shareaholic <<<
+>>> http://www.myspace.com/Modules/PostTo/Pages/?u=http://mycoolsite.com/my_cool_article&t=foo&c=bar <<<
+>>> http://www.plurk.com/m?content=foo+-+http://mycoolsite.com/my_cool_article&qualifier=shares <<<
+>>> http://www.newsvine.com/_tools/seed&save?u=http://mycoolsite.com/my_cool_article&h=foo <<<
+>>> http://bonzobox.com/toolbar/add?pop=1&u=http://mycoolsite.com/my_cool_article&t=foo&d=bar <<<
+>>> https://twitter.com/share?url=http://mycoolsite.com/my_cool_article&text=bar <<<
+>>> http://www.faqpal.com/submit?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.n4g.com/tips.aspx?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.xerpi.com/block/add_link_from_extension?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.printfriendly.com/print?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.wykop.pl/dodaj?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://ping.fm/ref/?link=http://mycoolsite.com/my_cool_article&title=foo&body=bar <<<
+>>> http://kaevur.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.squidoo.com/lensmaster/bookmark?http://mycoolsite.com/my_cool_article <<<
+>>> http://news.ycombinator.com/submitlink?u=http://mycoolsite.com/my_cool_article&t=foo <<<
+>>> http://www.hyves.nl/profilemanage/add/tips/?name=foo&text=bar+-+http://mycoolsite.com/my_cool_article&rating=5 <<<
+>>> http://bitacoras.com/anotaciones/http://mycoolsite.com/my_cool_article <<<
+>>> http://www.viadeo.com/shareit/share/?url=http://mycoolsite.com/my_cool_article&title=foo&urlaffiliate=31138 <<<
+>>> http://www.google.com/bookmarks/mark?op=add&bkmk=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.zabox.net/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://meneame.net/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.facebook.com/share.php?v=4&src=bm&u=http://mycoolsite.com/my_cool_article&t=foo <<<
+>>> http://www.netvouz.com/action/submitBookmark?url=http://mycoolsite.com/my_cool_article&title=foo&popup=no <<<
+>>> http://digg.com/submit?phase=2&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://virb.com/share?external&v=2&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://blogmarks.net/my/new.php?mini=1&simple=1&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.stumbleupon.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.stumbleupon.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://scriptandstyle.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.google.com/buzz/post?url=http://mycoolsite.com/my_cool_article&imageurl= <<<
+>>> http://www.tumblr.com/share/link?url=http://mycoolsite.com/my_cool_article&name=foo&description=bar <<<
+>>> http://promote.orkut.com/preview?nt=orkut.com&tt=foo&du=http://mycoolsite.com/my_cool_article&cn=bar <<<
+>>> http://izeby.com/submit.php?url=http://mycoolsite.com/my_cool_article <<<
+>>> http://b.hatena.ne.jp/add?mode=confirm&url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://posterous.com/share?linkto=http://mycoolsite.com/my_cool_article&title=foo&selection=bar <<<
+>>> http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fmycoolsite.com%2Fmy_cool_article&title=foo&ro=false&summary=bar&source= <<<
+>>> http://www.stumpedia.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://designbump.com/submit?url=http://mycoolsite.com/my_cool_article&title=foo&body=bar <<<
+>>> http://www.plaxo.com/?share_link=http://mycoolsite.com/my_cool_article <<<
+>>> http://www.ekudos.nl/artikel/nieuw?url=http://mycoolsite.com/my_cool_article&title=foo&desc=bar <<<
+>>> http://nujij.nl/jij.lynkx?t=foo&u=http://mycoolsite.com/my_cool_article&b=bar <<<
+>>> http://www.blogger.com/blog_this.pyra?t&u=http://mycoolsite.com/my_cool_article&n=foo&pli=1 <<<
+>>> http://www.evernote.com/clip.action?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+>>> http://www.netvibes.com/share?title=foo&url=http://mycoolsite.com/my_cool_article <<<
+>>> https://www.box.net/api/1.0/import?url=http://mycoolsite.com/my_cool_article&name=foo&description=bar&import_as=link <<<
+>>> http://www.google.com/reader/link?url=http://mycoolsite.com/my_cool_article&title=foo&srcUrl=http://mycoolsite.com/my_cool_article&srcTitle=foo&snippet=bar <<<
+>>> http://www.wikio.com/sharethis?url=http://mycoolsite.com/my_cool_article&title=foo <<<
+  Rendered sample/test_with_defaults.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 139ms (Views: 138.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:54:42 -0700 2012
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:54:42 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:54:42 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:54:42 -0700 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:54:42 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:54:42 -0700 2012
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 21:54:43 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:54:43 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:59:45 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 132ms (Views: 131.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:59:45 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:59:45 -0700 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:59:45 -0700 2012
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:59:45 -0700 2012
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:59:45 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:59:45 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 21:59:45 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:59:45 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:59:51 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:59:51 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:59:51 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:59:51 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:59:51 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:59:51 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:59:51 -0700 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:59:51 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 21:59:52 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 6.2ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:59:52 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 21:59:52 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 21:59:52 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 21:59:52 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 21:59:52 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 21:59:52 -0700 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 21:59:52 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 22:01:40 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 137ms (Views: 136.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:40 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:40 -0700 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:40 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:40 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:40 -0700 2012
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:40 -0700 2012
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:01:40 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 22:01:40 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 22:01:41 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:41 -0700 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:42 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:42 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:42 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:42 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:42 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:01:42 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 22:01:43 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:43 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:43 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:43 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:43 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:43 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:43 -0700 2012
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:01:43 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 22:01:44 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:44 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:44 -0700 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:44 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:44 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:44 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:44 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:01:44 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 22:01:50 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:50 -0700 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:50 -0700 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:50 -0700 2012
+Served asset /sexy_bookmarks.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:50 -0700 2012
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:01:50 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:01:50 -0700 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:01:50 -0700 2012
+Served asset /sharing-caring-hearts.png - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 22:02:33 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined method `[]' for false:FalseClass):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo', :post_summary => 'bar' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___96170681_2229076560'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 22:02:39 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 28.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:02:39 -0700 2012
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:02:39 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:02:39 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:02:39 -0700 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:02:39 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:02:39 -0700 2012
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:02:39 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 22:02:40 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:02:40 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:02:40 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:02:40 -0700 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:02:40 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:02:40 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:02:40 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:02:40 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Apr 16 22:09:22 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 131ms (Views: 130.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:22 -0700 2012
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:22 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:22 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:22 -0700 2012
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:22 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:22 -0700 2012
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:09:23 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 22:09:23 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (7ms)
+
+
+Started GET "/sample/test_with_defaults" for 127.0.0.1 at Mon Apr 16 22:09:52 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:52 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:52 -0700 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:52 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:52 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:52 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:52 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:09:52 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/sample/test_with_defaults" for 127.0.0.1 at Mon Apr 16 22:09:54 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:54 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:54 -0700 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:54 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:54 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:54 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:54 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:09:54 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/sample/test_with_defaults" for 127.0.0.1 at Mon Apr 16 22:09:55 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.6ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:55 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:55 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:55 -0700 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:55 -0700 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:09:55 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:09:55 -0700 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:09:55 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (0ms)
+
+
+Started GET "/sample/test_with_defaults" for 127.0.0.1 at Mon Apr 16 22:11:10 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 129ms (Views: 127.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:11:11 -0700 2012
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:11:11 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:11:11 -0700 2012
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:11:11 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:11:11 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:11:11 -0700 2012
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 22:11:11 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:11:11 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (5ms)
+
+
+Started GET "/sample/test_with_defaults" for 127.0.0.1 at Mon Apr 16 22:16:14 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 135ms (Views: 134.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:16:14 -0700 2012
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:16:14 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:16:14 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:16:14 -0700 2012
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:16:14 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:16:14 -0700 2012
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 22:16:14 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:16:14 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (3ms)
+
+
+Started GET "/sample/test_with_defaults" for 127.0.0.1 at Mon Apr 16 22:17:27 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (30.2ms)
+Completed 500 Internal Server Error in 42ms
+
+ActionView::Template::Error (can't convert nil into String):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo', :post_summary => 'bar' %>
+    2: <%= show_sexy_bookmarks :permalink => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:2:in `_app_views_sample_test_with_defaults_html_erb__599558170_2216113200'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.8ms)
+
+
+Started GET "/sample/test_with_defaults" for 127.0.0.1 at Mon Apr 16 22:26:58 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (12.8ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined local variable or method `conten_keys' for #<#<Class:0x10cc17200>:0x10cc0aac8>):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo', :post_summary => 'bar' %>
+    2: <%= show_sexy_bookmarks :permalink => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb___1538880092_2254161280'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/sample/test_with_defaults" for 127.0.0.1 at Mon Apr 16 22:27:32 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (25.2ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (SexyBookmarks::Exceptions::NotEnoughInfo):
+    1: <%= show_sexy_bookmarks :permalink => 'http://mycoolsite.com/my_cool_article', :title => 'foo', :post_summary => 'bar' %>
+    2: <%= show_sexy_bookmarks :permalink => 'foo' %>
+  app/views/sample/test_with_defaults.html.erb:2:in `_app_views_sample_test_with_defaults_html_erb___1689468906_2182278860'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/sample/test_with_defaults" for 127.0.0.1 at Mon Apr 16 22:30:01 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 129ms (Views: 128.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:30:01 -0700 2012
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:30:01 -0700 2012
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:30:01 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:30:01 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:30:01 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:30:01 -0700 2012
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 22:30:01 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (10ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:30:02 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (8ms)
+
+
+Started GET "/sample/test_with_defaults" for 127.0.0.1 at Mon Apr 16 22:30:44 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <%= show_sexy_bookmarks({ :permalink => 'http://mycoolsite.con/my_cool_article', :title => 'foo', :post_summary => 'bar' }, [ :twitter, :facebook, :google ]) %>
+  app/views/sample/test_with_defaults.html.erb:1:in `_app_views_sample_test_with_defaults_html_erb__461881370_2264818440'
+
+
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.2ms)
+
+
+Started GET "/sample/test_with_defaults" for 127.0.0.1 at Mon Apr 16 22:32:07 -0700 2012
+Processing by SampleController#test_with_defaults as HTML
+  Rendered sample/test_with_defaults.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 122ms (Views: 121.2ms)
+
+
+Started GET "/assets/sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:32:08 -0700 2012
+Served asset /sexy_bookmarks.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.sexy_bookmarks.css?body=1" for 127.0.0.1 at Mon Apr 16 22:32:08 -0700 2012
+Served asset /jquery.sexy_bookmarks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Apr 16 22:32:08 -0700 2012
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Apr 16 22:32:08 -0700 2012
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Apr 16 22:32:08 -0700 2012
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Apr 16 22:32:08 -0700 2012
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/shr-sprite.png" for 127.0.0.1 at Mon Apr 16 22:32:08 -0700 2012
+Served asset /shr-sprite.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sharing-caring-hearts.png" for 127.0.0.1 at Mon Apr 16 22:32:08 -0700 2012
+Served asset /sharing-caring-hearts.png - 304 Not Modified (4ms)

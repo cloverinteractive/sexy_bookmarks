@@ -1,17 +1,25 @@
-Gem::Specification.new do |gem|
-	gem.name 	            = "sexy_bookmarks"
-	gem.version           = "0.2.0"
-	gem.authors           = [ "Enrique Vidal", "Michael Baldry"]
-	gem.email	            = "enrique@cloverinteractive.com"
-	gem.homepage          = "http://github.com/michaelbaldry/sexy_bookmarks"
-	gem.summary           = "An easy to use rails port of sexybookmarks, upgraded to work with rails 3"
-	
-	gem.description       = "SexyBookmarks is only a rails port of wordpress popular plugin sexy bookmarks."
-	
-	gem.files             = Dir[ "lib/**/*.rb", "[A-Z]*", "init.rb",  "sexy_bookmarks.gemspec", "lib/fixtures/*.yml", "lib/sexybookmarks/*/*/*/*" ]
-	gem.test_files        = Dir[ "test/**/*" ]
-	gem.require_path      = "lib"
-	
-	gem.extra_rdoc_files  = Dir[ "*.rdoc" ]
-	gem.rdoc_options      = ["--charset=UTF-8", "--exclude=lib/sexy_bookmarks/assets"]
+# -*- encoding: utf-8 -*-
+$:.unshift File.expand_path("../lib", __FILE__)
+require 'sexy_bookmarks/version'
+
+ Gem::Specification.new do |gem|
+  gem.authors       = ["Enrique Vidal"]
+  gem.email         = ["enrique@cloverinteractive.com"]
+  gem.description   = "SexyBookmarks is a rails port of the wordpress popular plugin sexy bookmarks."
+  gem.summary       = "An easy to use rails port of sexybookmarks"
+  gem.homepage      = "http://cloverinteractive.github.com/sexy_bookmarks"
+
+  gem.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.md"]
+  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
+  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.name          = "sexy_bookmarks"
+  gem.require_paths = ["lib"]
+  gem.version       = SexyBookmarks::VERSION
+
+  gem.add_dependency 'rails'
+  gem.add_dependency 'jquery-rails'
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'turn'
+  gem.add_development_dependency 'capybara'
+  gem.add_development_dependency 'turn', '0.8.2'
 end
