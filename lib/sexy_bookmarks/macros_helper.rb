@@ -1,5 +1,5 @@
 module SexyBookmarks
-  FIXTURES_PATH   =  File.new( File.join( File.dirname( __FILE__ ), 'fixtures', 'socials.yml' ) )
+  FIXTURES = YAML.load_file( File.join File.dirname( __FILE__ ), 'fixtures', 'socials.yml' )
   ADDITIONAL_KEYS = {
     :site_name      => /SITE_NAME/,
     :twitt_cat      => /TWITT_CAT/,
@@ -12,7 +12,7 @@ module SexyBookmarks
 
   module MacrosHelper
     def available_social_networks
-      @available_socials ||= ::HashWithIndifferentAccess.new( YAML::load FIXTURES_PATH )
+      @available_social_networks ||= ::HashWithIndifferentAccess.new( FIXTURES )
     end
 
     def show_sexy_bookmarks( content, socials = nil, per_row = 8 )
@@ -23,8 +23,8 @@ module SexyBookmarks
       content[:escaped_permalink] = CGI.escape content[:permalink]
 
       list_items = socials.map do |social|
-        link_url = available_social_networks[social][:image_url] unless content[:image].blank?
-        link_url ||= available_social_networks[social][:url]
+        link_url    = available_social_networks[social][:image_url] unless content[:image].blank?
+        link_url  ||= available_social_networks[social][:url]
 
         link_url.gsub! /SHORT_TITLE|TITLE/,        content[:title]
         link_url.gsub! /ESCAPED_PERMALINK/,        content[:escaped_permalink]

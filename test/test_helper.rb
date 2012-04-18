@@ -5,6 +5,7 @@ require File.expand_path("../dummy/config/environment.rb",  __FILE__)
 require "active_support"
 require "test/unit"
 require "turn"
+require "nokogiri"
 
 Rails.backtrace_cleaner.remove_silencers!
 

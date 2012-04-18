@@ -21,5 +21,6 @@ require 'sexy_bookmarks/version'
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'turn'
   gem.add_development_dependency 'capybara'
+  gem.add_development_dependency 'nokogiri'
   gem.add_development_dependency 'turn', '0.8.2'
 end
