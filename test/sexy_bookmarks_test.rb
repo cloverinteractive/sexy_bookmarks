@@ -1,8 +1,6 @@
 require 'test_helper'
 
 class SexyBookmarksTest < ActiveSupport::TestCase
-  # Replace this with your real tests.
-  test "the truth" do
-    assert true
+  test "sexy_bookmarks.css is found as an asset" do
   end
 end
